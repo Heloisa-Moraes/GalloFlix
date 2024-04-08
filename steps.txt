@@ -1,0 +1,13 @@
+*/ comando para criar o projeto (apenas uma vez)*/
+dotnet new mvc -o  GalloFlix
+
+/* comando para criar solução (apenas uma vez)*/
+dotnet new sln --name GalloFlix
+
+/*comando para incluir */
+dotnet sln add GalloFlix\GalloFlix.csproj
+
+Configuração do Git local
+
+git config --global user.name Heloisa-Moraes
+git config --global user.email helomoraes2009@hotmail.com 
