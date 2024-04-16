@@ -7,7 +7,28 @@ dotnet new sln --name GalloFlix
 /*comando para incluir */
 dotnet sln add GalloFlix\GalloFlix.csproj
 
-Configuração do Git local
+/*como abrir o NugetGalerry: (shift + ctrl + p)
+    Pesquisar e instalar: 
+        EntityFrameworkCore
+        EntityFrameworkCore.Design
+        EntityFrameworkCore.Tools
+        Pomelo.EntityFrameworkCore.MySql
 
+Criar as classes de dados - Pasta Models
+
+Criar a pasta Data e a classe AppDbContext
+
+Criar a ConnectionString no arquivo appsettings.json
+
+Criar o serviço de conexão no arquivo Program.cs
+
+Pacotes para CRUD
+    Microsoft.VisualStudio.Web.CodeGeneration.Design
+    Microsoft.EntityFrameworkCore.SqlServer
+
+Criar um controller CRUD - (CREATE READ UPDATE DELETE)
+dotnet-aspnet-codegenerator controller -name GenresController -m Genre -dc AppDbContext -outDir Controllers -udl
+
+Configuração do Git local:
 git config --global user.name Heloisa-Moraes
 git config --global user.email helomoraes2009@hotmail.com 

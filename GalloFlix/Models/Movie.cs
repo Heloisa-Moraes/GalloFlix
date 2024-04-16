@@ -39,7 +39,6 @@ public class Movie
 
     [StringLength(200)]
     [Display(Name = "Foto")]
-    [Required(ErrorMessage = "Por favor, informe a classificação indicativa")]
     public string Image { get; set; }
 
     [NotMapped]
