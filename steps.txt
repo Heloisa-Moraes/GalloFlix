@@ -29,6 +29,8 @@ Pacotes para CRUD
 Criar um controller CRUD - (CREATE READ UPDATE DELETE)
 dotnet-aspnet-codegenerator controller -name GenresController -m Genre -dc AppDbContext -outDir Controllers -udl
 
+dotnet-aspnet-codegenerator controller -name MoviesController -m Movie -dc AppDbContext -outDir Controllers -udl
+
 Configuração do Git local:
 git config --global user.name Heloisa-Moraes
 git config --global user.email helomoraes2009@hotmail.com 
