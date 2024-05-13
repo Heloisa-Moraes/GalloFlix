@@ -14,6 +14,9 @@ dotnet sln add GalloFlix\GalloFlix.csproj
         EntityFrameworkCore.Tools
         Pomelo.EntityFrameworkCore.MySql
 
+
+        AspNetCore.Identity /*instalar */
+
 Criar as classes de dados - Pasta Models
 
 Criar a pasta Data e a classe AppDbContext
