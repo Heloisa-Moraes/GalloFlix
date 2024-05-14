@@ -37,3 +37,22 @@ dotnet-aspnet-codegenerator controller -name MoviesController -m Movie -dc AppDb
 Configuração do Git local:
 git config --global user.name Heloisa-Moraes
 git config --global user.email helomoraes2009@hotmail.com 
+
+
+para saber qual versão que é digitar: 
+dotnet ef no terminal 
+
+migrations - criar e movimentar o banco 
+
+dot net e  -> cria uma migração 
+
+comando: 
+dotnet ef migrations add AdicionandoUsuario  
+
+ctrl + ; deixa tudo comentado 
+
+
+clica o cursor sfit e clica seleciona tudo 
+
+
+dotnet ef database update -> esse comando atualiza o banco de dados 
