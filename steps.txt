@@ -55,4 +55,4 @@ ctrl + ; deixa tudo comentado
 clica o cursor sfit e clica seleciona tudo 
 
 
-dotnet ef database update -> esse comando atualiza o banco de dados 
+dotnet ef database update -> esse comando atualiza o banco de dados (realizar toda vez que for mexer no projeto novamente )
