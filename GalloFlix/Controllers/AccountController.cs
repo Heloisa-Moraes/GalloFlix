@@ -20,6 +20,7 @@ namespace GalloFlix.Controllers;
             SignInManager<IdentityUser> signInManager,
             UserManager<IdentityUser> userManager
         )
+        
         {
             _logger = logger;
             _signInManager = signInManager;
@@ -34,7 +35,10 @@ namespace GalloFlix.Controllers;
             };
             return View(loginVM);
         }
-
+        public IActionResult Register()
+        {
+            return View();
+        }
     [HttpPost]
     [ValidateAntiForgeryToken]
 
@@ -54,7 +58,7 @@ namespace GalloFlix.Controllers;
                 userName, login.Password, login.RememberMe, lockoutOnFailure: true
             );
 
-            if (result.Succeeded) 
+            if (result.Succeeded)
             {
                 _logger.LogInformation($"Usuário {userName} fez login");
                 return LocalRedirect(login.ReturnUrl);

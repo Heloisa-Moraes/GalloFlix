@@ -16,5 +16,5 @@ namespace GalloFlix.ViewModels;
       
         public bool RememberMe {get; set; } = false; 
 
-         public string ReturnUrl {get; set; }
+        public string ReturnUrl {get; set; }
     }
